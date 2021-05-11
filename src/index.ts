@@ -1,7 +1,6 @@
 import express from 'express';
 import { addRoutes } from './routes';
-
-const PORT = process.env.PORT || 3000;
+import { PORT } from './config';
 
 const app = express();
 
